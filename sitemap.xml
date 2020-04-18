@@ -3,63 +3,64 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://help.schoork.com/docs/mobile_printers/</loc>
-  </url>
-  
-  <url>
-    <loc>https://help.schoork.com/docs/mobile_printers/zebra/</loc>
-  </url>
-  
-  <url>
-    <loc>https://help.schoork.com/docs/parents/appointments/</loc>
-  </url>
-  
-  <url>
-    <loc>https://help.schoork.com/docs/parents/concerns/</loc>
-  </url>
-  
-  <url>
-    <loc>https://help.schoork.com/docs/students/attendance/</loc>
-  </url>
-  
-  <url>
-    <loc>https://help.schoork.com/docs/students/hall_passes/</loc>
-  </url>
-  
-  <url>
-    <loc>https://help.schoork.com/docs/students/hot_list/</loc>
-  </url>
-  
-  <url>
-    <loc>https://help.schoork.com/docs/students/referrals/</loc>
-  </url>
-  
-  <url>
-    <loc>https://help.schoork.com/docs/students/tardy_slips/</loc>
-  </url>
-  
-  <url>
-    <loc>https://help.schoork.com/categories/</loc>
-  </url>
-  
-  <url>
     <loc>https://help.schoork.com/docs/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://help.schoork.com/docs/parents/</loc>
+    <loc>https://help.schoork.com/docs/docs/mobile_printers/</loc>
   </url>
   
   <url>
-    <loc>https://help.schoork.com/</loc>
+    <loc>https://help.schoork.com/docs/docs/mobile_printers/zebra/</loc>
   </url>
   
   <url>
-    <loc>https://help.schoork.com/docs/students/</loc>
+    <loc>https://help.schoork.com/docs/docs/parents/appointments/</loc>
   </url>
   
   <url>
-    <loc>https://help.schoork.com/tags/</loc>
+    <loc>https://help.schoork.com/docs/docs/parents/concerns/</loc>
+  </url>
+  
+  <url>
+    <loc>https://help.schoork.com/docs/docs/students/attendance/</loc>
+  </url>
+  
+  <url>
+    <loc>https://help.schoork.com/docs/docs/students/hall_passes/</loc>
+  </url>
+  
+  <url>
+    <loc>https://help.schoork.com/docs/docs/students/hot_list/</loc>
+  </url>
+  
+  <url>
+    <loc>https://help.schoork.com/docs/docs/students/referrals/</loc>
+  </url>
+  
+  <url>
+    <loc>https://help.schoork.com/docs/docs/students/tardy_slips/</loc>
+  </url>
+  
+  <url>
+    <loc>https://help.schoork.com/docs/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://help.schoork.com/docs/docs/</loc>
+  </url>
+  
+  <url>
+    <loc>https://help.schoork.com/docs/docs/parents/</loc>
+  </url>
+  
+  <url>
+    <loc>https://help.schoork.com/docs/docs/students/</loc>
+  </url>
+  
+  <url>
+    <loc>https://help.schoork.com/docs/tags/</loc>
   </url>
   
 </urlset>

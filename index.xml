@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Schoork Documentation</title>
-    <link>https://help.schoork.com/</link>
+    <link>https://help.schoork.com/docs/</link>
     <description>Recent content on Schoork Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>The Hugo Documents are copyright © [gethugothemes](https://gethugothemes.com/) 2020.</copyright>
     
-	<atom:link href="https://help.schoork.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://help.schoork.com/docs/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>https://help.schoork.com/docs/mobile_printers/zebra/</link>
+      <link>https://help.schoork.com/docs/docs/mobile_printers/zebra/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://help.schoork.com/docs/mobile_printers/zebra/</guid>
+      <guid>https://help.schoork.com/docs/docs/mobile_printers/zebra/</guid>
       <description>Zebra Mobile Printer Support Schoork supports printing on the Zebra iMZ220 and the ZQ310.
 Not Printing If your Zebra printer is not printing when you log a tardy,
  Make sure your printer is on Make sure your printer is linked to your phone via a bluetooth connection  Printing Gibberish If your Zebra mobile printer is printing an unintelligble mix of symbols and characters,
@@ -25,69 +25,69 @@ Not Printing If your Zebra printer is not printing when you log a tardy,
     
     <item>
       <title></title>
-      <link>https://help.schoork.com/docs/parents/appointments/</link>
+      <link>https://help.schoork.com/docs/docs/parents/appointments/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://help.schoork.com/docs/parents/appointments/</guid>
+      <guid>https://help.schoork.com/docs/docs/parents/appointments/</guid>
       <description>Appointments Parent Appointments is a module that allows parents to request an appointment with a staff member. When the parent requests the appointment, the staff member (and their supervisors) are notificed via email. Staff members will see a badge count in their sidebar of the number of incomplete appointments they have.
 Workflow The diagram below shows the general workflow of a parent appointment in Schoork. In this diagram the orange boxes represent actions that a person needs to take, while the blue boxes are tasks that Schoork automates.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://help.schoork.com/docs/parents/concerns/</link>
+      <link>https://help.schoork.com/docs/docs/parents/concerns/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://help.schoork.com/docs/parents/concerns/</guid>
+      <guid>https://help.schoork.com/docs/docs/parents/concerns/</guid>
       <description>Concerns When a parent has a concern or request, they can submit a Parent Concern via Schoork. When the parent submits the concern, they must pick a staff member to submit the concern to. The staff member (and their supervisors) are notificed via email. Staff members will see a badge count in their sidebar of the number of incomplete concerns they have.
 Workflow The diagram below shows the general workflow of a parent concern in Schoork.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://help.schoork.com/docs/students/attendance/</link>
+      <link>https://help.schoork.com/docs/docs/students/attendance/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://help.schoork.com/docs/students/attendance/</guid>
+      <guid>https://help.schoork.com/docs/docs/students/attendance/</guid>
       <description>Attendance Workflow The diagram below shows the general workflow of attendance in Schoork. In this diagram the orange boxes represent actions that a person needs to take, while the blue boxes are tasks that Schoork automates.
   mermaid.initialize({ flowchart: { useMaxWidth:true } });  graph TD a[User takes attendance]:::work b[Absent students added to Daily Absences]:::automated c[Section removed from Daily Absences]:::automated d[Administrator makes edits as needed]:::work e[User forgets to take attendance]:::work f[Reminder email]:::automated g[User or administrator takes attendance for section]:::work h[Calculates daily attendance rate]:::automated classDef automated fill:#6bf classDef work fill:#f96 a--b &amp; c b--d e--f f--g d &amp; g -- h Initial Setup In order to take attendance, you will need to assign students to sections and create attendance codes.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://help.schoork.com/docs/students/hall_passes/</link>
+      <link>https://help.schoork.com/docs/docs/students/hall_passes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://help.schoork.com/docs/students/hall_passes/</guid>
+      <guid>https://help.schoork.com/docs/docs/students/hall_passes/</guid>
       <description>Hall Passes Hall passes are a mostly mobile feature. While hall passes might be easy to use with pre-printed tickets or scraps of paper and sticky notes, digital hall passes do afford the feature of automated data collection. With digital hall passes, you can which students are in the halls the most, how long students are out of class, and which teachers are allowing students to leave their classroom the most.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://help.schoork.com/docs/students/hot_list/</link>
+      <link>https://help.schoork.com/docs/docs/students/hot_list/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://help.schoork.com/docs/students/hot_list/</guid>
+      <guid>https://help.schoork.com/docs/docs/students/hot_list/</guid>
       <description>Hot List The Hot List is designed to be a quick and easy way to notify users in a school when a student has a particular consequence or needs to be pulled. The hot list is dsiplayed on users&amp;rsquo; dashboards and can be sent as an email.
 Workflow The diagram below shows the general workflow of the hot list in Schoork. In this diagram the orange boxes represent actions that a person needs to take, while the blue boxes are tasks that Schoork automates.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://help.schoork.com/docs/students/referrals/</link>
+      <link>https://help.schoork.com/docs/docs/students/referrals/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://help.schoork.com/docs/students/referrals/</guid>
+      <guid>https://help.schoork.com/docs/docs/students/referrals/</guid>
       <description>Referrals Workflow The diagram below shows the general workflow of a referral in Schoork. In this diagram the orange boxes represent actions that need to be taken and the blue boxes are tasks that Schoork automates.
   mermaid.initialize({ flowchart: { useMaxWidth:true } });  graph TD id1[User submits referral]:::work id2[&#34;Email notification to administrator(s)&#34;]:::automated id3[Administrator completes referral]:::work id4[Email notification to user]:::automated id5[Added to Hot List]:::automated id6[Consequence Served entry created]:::automated id1--id2 &amp; id3 id3--id4 &amp; id5 &amp; id6 classDef automated fill:#6bf classDef work fill:#f96 Initial Setup Referrals require a set of behaviors and and a set of consequences in order to be added and completed, respectively.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://help.schoork.com/docs/students/tardy_slips/</link>
+      <link>https://help.schoork.com/docs/docs/students/tardy_slips/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://help.schoork.com/docs/students/tardy_slips/</guid>
+      <guid>https://help.schoork.com/docs/docs/students/tardy_slips/</guid>
       <description>Tardy Slips Tardy slips are a mostly mobile feature. They are designed to be printed on a mobile printer when they are assigned.
 Mobile Printers Currently Schoork supports printing on the Zebra iMZ220 (discontinued) and the ZQ310. If your school doesn&amp;rsquo;t have a mobile printer but would like to invest in some, we do recommend the ZQ310. It&amp;rsquo;s easy to use and already works with Schoork. If you have a mobile printer that&amp;rsquo;s not listed on our list of supported printers, please contact us.</description>
     </item>
