@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Schoork Documentation</title>
-    <link>https://help.schoork.com/docs/docs/mobile_printers/</link>
-    <description>Recent content on Schoork Documentation</description>
+    <title>Mobile Printers on Schoork Documentation</title>
+    <link>https://help.schoork.com/docs/mobile_printers/</link>
+    <description>Recent content in Mobile Printers on Schoork Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>The Hugo Documents are copyright © [gethugothemes](https://gethugothemes.com/) 2020.</copyright>
     
-	<atom:link href="https://help.schoork.com/docs/docs/mobile_printers/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://help.schoork.com/docs/mobile_printers/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title></title>
-      <link>https://help.schoork.com/docs/docs/mobile_printers/zebra/</link>
+      <title>Zebra</title>
+      <link>https://help.schoork.com/docs/mobile_printers/zebra/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://help.schoork.com/docs/docs/mobile_printers/zebra/</guid>
+      <guid>https://help.schoork.com/docs/mobile_printers/zebra/</guid>
       <description>Zebra Mobile Printer Support Schoork supports printing on the Zebra iMZ220 and the ZQ310.
 Not Printing If your Zebra printer is not printing when you log a tardy,
  Make sure your printer is on Make sure your printer is linked to your phone via a bluetooth connection  Printing Gibberish If your Zebra mobile printer is printing an unintelligble mix of symbols and characters,
