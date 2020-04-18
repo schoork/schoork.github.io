@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Parents on Schoork Documentation</title>
+    <link>https://help.schoork.com/docs/parents/</link>
+    <description>Recent content in Parents on Schoork Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>The Hugo Documents are copyright © [gethugothemes](https://gethugothemes.com/) 2020.</copyright>
+    
+	<atom:link href="https://help.schoork.com/docs/parents/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://help.schoork.com/docs/parents/appointments/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://help.schoork.com/docs/parents/appointments/</guid>
+      <description>Appointments Parent Appointments is a module that allows parents to request an appointment with a staff member. When the parent requests the appointment, the staff member (and their supervisors) are notificed via email. Staff members will see a badge count in their sidebar of the number of incomplete appointments they have.
+Workflow The diagram below shows the general workflow of a parent appointment in Schoork. In this diagram the orange boxes represent actions that a person needs to take, while the blue boxes are tasks that Schoork automates.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://help.schoork.com/docs/parents/concerns/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://help.schoork.com/docs/parents/concerns/</guid>
+      <description>Concerns When a parent has a concern or request, they can submit a Parent Concern via Schoork. When the parent submits the concern, they must pick a staff member to submit the concern to. The staff member (and their supervisors) are notificed via email. Staff members will see a badge count in their sidebar of the number of incomplete concerns they have.
+Workflow The diagram below shows the general workflow of a parent concern in Schoork.</description>
+    </item>
+    
+  </channel>
+</rss>

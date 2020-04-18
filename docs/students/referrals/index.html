@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Referrals Workflow The diagram below shows the general workflow of a referral in Schoork. In this diagram the orange boxes represent actions that need to be taken and the blue boxes are tasks that Schoork automates.
+  mermaid.initialize({ flowchart: { useMaxWidth:true } });  graph TD id1[User submits referral]:::work id2[&#34;Email notification to administrator(s)&#34;]:::automated id3[Administrator completes referral]:::work id4[Email notification to user]:::automated id5[Added to Hot List]:::automated id6[Consequence Served entry created]:::automated id1--id2 & id3 id3--id4 & id5 & id6 classDef automated fill:#6bf classDef work fill:#f96 Initial Setup Referrals require a set of behaviors and and a set of consequences in order to be added and completed, respectively."><meta property="og:title" content="" />
+<meta property="og:description" content="Referrals Workflow The diagram below shows the general workflow of a referral in Schoork. In this diagram the orange boxes represent actions that need to be taken and the blue boxes are tasks that Schoork automates.
+  mermaid.initialize({ flowchart: { useMaxWidth:true } });  graph TD id1[User submits referral]:::work id2[&#34;Email notification to administrator(s)&#34;]:::automated id3[Administrator completes referral]:::work id4[Email notification to user]:::automated id5[Added to Hot List]:::automated id6[Consequence Served entry created]:::automated id1--id2 & id3 id3--id4 & id5 & id6 classDef automated fill:#6bf classDef work fill:#f96 Initial Setup Referrals require a set of behaviors and and a set of consequences in order to be added and completed, respectively." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://help.schoork.com/docs/students/referrals/" />
+
+<title>Referrals | Schoork Documentation</title>
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="/book.min.284c8fc21ced13c579d9027a9d14893c56b243c6045001180391cebb4cc36ab8.css" integrity="sha256-KEyPwhztE8V52QJ6nRSJPFayQ8YEUAEYA5HOu0zDarg=">
+<script defer src="/en.search.min.dec7d94e0cc9bb029977aba839c4faee9effd28ab25e1cc7ebb9957078b33fbd.js" integrity="sha256-3sfZTgzJuwKZd6uoOcT67p7/0oqyXhzH67mVcHizP70="></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+  
+</head>
+
+<body>
+  <input type="checkbox" class="hidden" id="menu-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      
+  <nav>
+<h2 class="book-brand">
+  <a href="/"><img src="/pdf_logo.png" alt="Logo" /></a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  
+  
+  
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+    <a href="/docs/mobile_printers/" class="">Mobile Printers</a>
+  
+
+          
+  
+  
+  
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+    <a href="/docs/mobile_printers/zebra/" class="">Zebra</a>
+  
+
+        </li>
+      
+    
+  </ul>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="/docs/parents/" class="">Parents</a>
+  
+
+          
+  
+  
+  
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+    <a href="/docs/parents/appointments/" class="">Appointments</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="/docs/parents/concerns/" class="">Concerns</a>
+  
+
+        </li>
+      
+    
+  </ul>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="/docs/students/" class="">Students</a>
+  
+
+          
+  
+  
+  
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+    <a href="/docs/students/attendance/" class="">Attendance</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="/docs/students/hall_passes/" class="">Hall Passes</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="/docs/students/hot_list/" class="">Hot List</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="/docs/students/referrals/" class="active">Referrals</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="/docs/students/tardy_slips/" class="">Tardy Slips</a>
+  
+
+        </li>
+      
+    
+  </ul>
+  
+
+        </li>
+      
+    
+  </ul>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var menu=document.querySelector("aside.book-menu nav");addEventListener("beforeunload",function(event){localStorage.setItem("menu.scrollTop",menu.scrollTop);});menu.scrollTop=localStorage.getItem("menu.scrollTop");})();</script>
+
+
+ 
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Referrals</strong>
+
+  <label for="toc-control">
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+  </label>
+</div>
+
+
+  
+    <input type="checkbox" class="hidden" id="toc-control" />
+    <aside class="hidden clearfix">
+      
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#workflow">Workflow</a></li>
+    <li><a href="#initial-setup">Initial Setup</a></li>
+    <li><a href="#adding-referrals">Adding Referrals</a></li>
+    <li><a href="#completing-referrals">Completing Referrals</a></li>
+    <li><a href="#notifications">Notifications</a></li>
+  </ul>
+</nav>
+
+
+    </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><h1 id="referrals">Referrals</h1>
+<h2 id="workflow">Workflow</h2>
+<p>The diagram below shows the general workflow of a referral in Schoork. In
+this diagram the orange boxes represent actions that need to be taken and
+the blue boxes are tasks that Schoork automates.</p>
+
+
+<script src="/mermaid.min.js"></script>
+<script>
+mermaid.initialize({
+  flowchart: { useMaxWidth:true }
+});
+</script>
+
+
+
+<p class="mermaid text-center">
+graph TD
+  id1[User submits referral]:::work
+  id2["Email notification to administrator(s)"]:::automated
+  id3[Administrator completes referral]:::work
+  id4[Email notification to user]:::automated
+  id5[Added to Hot List]:::automated
+  id6[Consequence Served entry created]:::automated
+  id1-->id2 & id3
+  id3-->id4 & id5 & id6
+  classDef automated fill:#6bf
+  classDef work fill:#f96
+
+</p>
+
+<h2 id="initial-setup">Initial Setup</h2>
+<p>Referrals require a set of behaviors and and a set of consequences in
+order to be added and completed, respectively. Users with the <strong>Admin</strong>
+permission can add these.</p>
+
+
+
+
+<div class="book-tabs"><input type="radio" class="hidden" name="tabs-setup" id="tabs-setup-0" checked="checked" />
+  <label for="tabs-setup-0">Behaviors</label>
+  <div class="book-tabs-content markdown-inner">Behaviors are assigned a regular name, a short name, and are defaulted
+to active. Only active behaviors may be selected when submitting a
+referral.</div><input type="radio" class="hidden" name="tabs-setup" id="tabs-setup-1"  />
+  <label for="tabs-setup-1">Consequences</label>
+  <div class="book-tabs-content markdown-inner"><p>Consequences are also assigned a regular and short name. The short name
+is used for some PDF reports.</p>
+<p>If the <em>Add to Hot List</em> checkbox is
+checked, then any student receiving this consequence will be
+automatically added to the <a href="/students/hot_list">Hot List</a> for all dates
+between the start and end date of the consequence.</p>
+<p>If the <em>Create Consequence Served Entry</em> checkbox is checked, then any student
+receiving this consequence will be assigned a <a href="/students/consequences_served">Consequence
+Served</a> entry
+for the referral.</p>
+</div></div>
+
+<h2 id="adding-referrals">Adding Referrals</h2>
+<p>Users can only add referrals for students who attend schools to which
+the user is assigned. If a user cannot add a referral for a particular
+student who is in Schoork, it is likely that they don&rsquo;t share a school
+in common.</p>
+<p>Users with the <strong>Admin</strong> permission can add and remove users from
+schools.</p>
+<h2 id="completing-referrals">Completing Referrals</h2>
+<p>Users with the <strong>Discipline</strong> permission can complete referrals (these
+users can also add and complete referrals in one single step). To
+complete a referral, click the <strong>Edit</strong> button next to the referral on
+the referrals page.</p>
+<p>Consequences may be marked as HL (Hot List) and/or Serves (Consequence
+Served). See the above tab for <em>Consequences</em> for more information on
+these types of consequences.</p>
+<h2 id="notifications">Notifications</h2>
+<p>Some users may be notified when a referral is submitted and completed.</p>
+<ul>
+<li>When <em>adding</em> a referral, all users with the <strong>Discipline</strong> permission
+who are also assigned as <em>admin</em> users of a school will receive a
+notification of the referral via email.</li>
+<li>When <em>completing</em> a referral, the user who submitted the referral will
+receive an email notification that it has been completed.</li>
+</ul>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex justify-between">
+
+
+
+
+
+</div>
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#workflow">Workflow</a></li>
+    <li><a href="#initial-setup">Initial Setup</a></li>
+    <li><a href="#adding-referrals">Adding Referrals</a></li>
+    <li><a href="#completing-referrals">Completing Referrals</a></li>
+    <li><a href="#notifications">Notifications</a></li>
+  </ul>
+</nav>
+
+ 
+    </aside>
+    
+  </main>
+
+  
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
