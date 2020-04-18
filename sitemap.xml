@@ -3,11 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://help.schoork.com/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://help.schoork.com/docs/</loc>
     <priority>0</priority>
   </url>
@@ -35,6 +30,10 @@
   
   <url>
     <loc>https://help.schoork.com/docs/students/hall_passes/</loc>
+  </url>
+  
+  <url>
+    <loc>https://help.schoork.com/</loc>
   </url>
   
   <url>
