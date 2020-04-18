@@ -8,7 +8,13 @@
   </url>
   
   <url>
+    <loc>https://help.schoork.com/docs/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://help.schoork.com/docs/students/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -25,10 +31,6 @@
   
   <url>
     <loc>https://help.schoork.com/docs/parents/concerns/</loc>
-  </url>
-  
-  <url>
-    <loc>https://help.schoork.com/docs/</loc>
   </url>
   
   <url>
