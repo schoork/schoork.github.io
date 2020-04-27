@@ -4,15 +4,17 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="IEPs How they work They work like this!"><meta property="og:title" content="IEPs" />
-<meta property="og:description" content="IEPs How they work They work like this!" />
+<meta name="description" content="IEPs Each student can be assigned an Individualized Education Plan (IEP) by a user with the Support permission. IEPs are a way to store and consolidate academic and behavioral goals, scanned documents, and forms relating to IEP meetings.
+IEP Meetings The diagram below shows the general workflow of an IEP meeting in Schoork. In this diagram the orange boxes represent actions that a person needs to take, while the blue boxes are tasks that Schoork automates."><meta property="og:title" content="IEPs" />
+<meta property="og:description" content="IEPs Each student can be assigned an Individualized Education Plan (IEP) by a user with the Support permission. IEPs are a way to store and consolidate academic and behavioral goals, scanned documents, and forms relating to IEP meetings.
+IEP Meetings The diagram below shows the general workflow of an IEP meeting in Schoork. In this diagram the orange boxes represent actions that a person needs to take, while the blue boxes are tasks that Schoork automates." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://help.schoork.com/docs/students/ieps/" />
 
 <title>IEPs | Schoork Documentation</title>
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/book.min.284c8fc21ced13c579d9027a9d14893c56b243c6045001180391cebb4cc36ab8.css" integrity="sha256-KEyPwhztE8V52QJ6nRSJPFayQ8YEUAEYA5HOu0zDarg=">
-<script defer src="/en.search.min.7c4bab5b389232a1223416024dc1ee8a1af1f25ad83fef13582c7ba0c2309b17.js" integrity="sha256-fEurWziSMqEiNBYCTcHuihrx8lrYP&#43;8TWCx7oMIwmxc="></script>
+<script defer src="/en.search.min.d16277e841eb88d4423166c5f4317bf040bbf881fbff6fd2232be811bb85a3da.js" integrity="sha256-0WJ36EHriNRCMWbF9DF78EC7&#43;IH7/2/SIyvoEbuFo9o="></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -263,7 +265,8 @@ https://github.com/alex-shpak/hugo-book
       
   <nav id="TableOfContents">
   <ul>
-    <li><a href="#how-they-work">How they work</a></li>
+    <li><a href="#iep-meetings">IEP Meetings</a></li>
+    <li><a href="#academic-and-behavior-goals">Academic and Behavior Goals</a></li>
   </ul>
 </nav>
 
@@ -276,8 +279,114 @@ https://github.com/alex-shpak/hugo-book
       
       
   <article class="markdown"><h1 id="ieps">IEPs</h1>
-<h2 id="how-they-work">How they work</h2>
-<p>They work like this!</p>
+<p>Each student can be assigned an Individualized Education Plan (IEP) by a user
+with the <strong>Support</strong> permission. IEPs are a way to store and consolidate academic and
+behavioral goals, scanned documents, and forms relating to IEP meetings.</p>
+<h2 id="iep-meetings">IEP Meetings</h2>
+<p>The diagram below shows the general workflow of an IEP meeting in Schoork.
+In this diagram the orange boxes represent actions that a person needs
+to take, while the blue boxes are tasks that Schoork automates.</p>
+
+
+<script src="/mermaid.min.js"></script>
+<script>
+mermaid.initialize({
+  flowchart: { useMaxWidth:true }
+});
+</script>
+
+
+
+<p class="mermaid text-center">
+graph TD
+  a[Case manager creates IEP Meeting]:::work
+  j[Attendance and Prior Written Notice forms created]:::automated
+  b[Case manager clicks Invite button]:::work
+  c[Automated email to parents and users]:::automated
+  d[Parents & users RSVP]:::work
+  e[Case manager adds/edits forms]:::work
+  f[Parents & users sign forms]:::work
+  g[Signatures added to forms]:::automated
+  h[Case manager prints forms]:::work
+  k["Parent/user sets signature (once)"]:::work
+  a-->b-->c-->d
+  k-->f
+  a-->j-->e-->f-->g-->h
+  classDef work fill:#f96
+  classDef automated fill:#6bf
+
+</p>
+
+
+
+
+
+<div class="book-tabs"><input type="radio" class="hidden" name="tabs-meetings" id="tabs-meetings-0" checked="checked" />
+  <label for="tabs-meetings-0">Inviting Parents and Users</label>
+  <div class="book-tabs-content markdown-inner"><p>When you add or edit a meeting, you can invite users and parents. To
+invite parents, they must have a <a href="/docs/parents/">parent account</a>, although they do not
+need to be linked to the student.</p>
+<p>When you add users, you also assign them a role, which is used on
+several forms (including the <em>MET Documentation</em> form and the <em>Attendance</em>
+form). Only users with the <strong>Agency Representative</strong> role will be able
+to assign the <em>Amendment</em> form.</p>
+<h3 id="sending-invites">Sending Invites</h3>
+<p>Saving the IEP Meeting does not immediately make the meeting available
+to parents and users. The members invited to the meeting will be listed
+under the <strong>Invitees</strong> section. Clicking the <strong>Send Invites</strong> button
+will send an automated email to the parents and users, allowing them to
+access the meeting and its forms and documents and giving them the
+ability to RSVP to the meeting.</p>
+</div><input type="radio" class="hidden" name="tabs-meetings" id="tabs-meetings-1"  />
+  <label for="tabs-meetings-1">Forms</label>
+  <div class="book-tabs-content markdown-inner"><p>Every IEP meeting comes with all of the forms you would need for any
+meeting. Those that are used in all meetings, such as the <em>Attendance</em>
+form, are automatically added. Forms that you may only use sometimes,
+like the <em>MET Documentation</em> form, must be added by clicking the <strong>Add</strong>
+button.</p>
+<h3 id="status">Status</h3>
+<p>Most forms have a status that is defaulted to <em>Draft</em>. When a form is in
+<em>Draft</em> mode, parents and users will not be able to sign them or print
+them. When you have completed editing a form, and are ready for others
+to see/sign it, change the status to <em>Draft Completed</em>.</p>
+<h3 id="signing-forms">Signing Forms</h3>
+<p>If users and parents have set their <a href="/docs/misc/signatures">signatures</a>,
+they can digitally sign forms (otherwise they will have to sign the
+forms the old fashioned way). Each digital signature will show the
+person&rsquo;s signature, their name, their role for the meeting (see
+<em>Inviting Parents and Users</em>), and the timestamp of when they signed the
+form.</p>
+</div><input type="radio" class="hidden" name="tabs-meetings" id="tabs-meetings-2"  />
+  <label for="tabs-meetings-2">Documents</label>
+  <div class="book-tabs-content markdown-inner">You can also upload documents by editing the meeting and using the <strong>Add
+File</strong> button. This feature is avaialble for adding hand-signed forms
+and other documents relevant to the meeting.</div></div>
+
+<h2 id="academic-and-behavior-goals">Academic and Behavior Goals</h2>
+<p>IEPs also have a way to set and log academic and behavioral goals for
+students. Once set, data for these goals can be logged manually so that
+Schoork can automatically create charts showing the student&rsquo;s progress
+over time.</p>
+<p>The <strong>Report of Progress</strong> button will download a report showing the
+student&rsquo;s progress as compared to their target.</p>
+<p>Behavioral goals can be added this way or can be added using the
+<a href="/docs/students/behavior_trackers">Student Supports and Behavior
+Trackers</a> module. If data is added
+using behavior trackers, it will be automatically added to charts on the
+IEP, too.</p>
+<blockquote class="book-hint info">
+  <h2 id="tldr">TL;DR</h2>
+<p><strong>IEP Meetings</strong> are a prime example of how we at Schoork believe
+software should act. When you were using paper forms, or even forms from
+some other <em>digital</em> IEP providers, you had to type or write the same
+information on multiple forms. That&rsquo;s time you could spend doing other,
+more important things (i.e. working with students, planning lessons,
+spending time with your family, sipping mai tais on the beach, etc.).</p>
+<p>Instead, our IEP forms use the information entered once to populate
+as many forms as possible.</p>
+
+</blockquote>
+
 </article>
  
       
@@ -312,7 +421,8 @@ https://github.com/alex-shpak/hugo-book
       
   <nav id="TableOfContents">
   <ul>
-    <li><a href="#how-they-work">How they work</a></li>
+    <li><a href="#iep-meetings">IEP Meetings</a></li>
+    <li><a href="#academic-and-behavior-goals">Academic and Behavior Goals</a></li>
   </ul>
 </nav>
 
