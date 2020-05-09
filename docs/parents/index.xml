@@ -31,5 +31,16 @@ Workflow The diagram below shows the general workflow of a parent appointment in
 Workflow The diagram below shows the general workflow of a parent concern in Schoork.</description>
     </item>
     
+    <item>
+      <title>Forms</title>
+      <link>https://help.schoork.com/docs/parents/forms/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://help.schoork.com/docs/parents/forms/</guid>
+      <description>Forms Note: This page describes forms that parents sign. To learn more about forms that users submit, go to the User Forms page.
+Tired of handling multiple paper forms that parents have to sign? We can turn those paper forms into digital ones so that you can have parents sign them digitally. This means less printing, less scanning, and a more seamless process.
+Paper forms generally mean that parents have to write out information that schools already have (like phone numbers and email addresses), wasting their time.</description>
+    </item>
+    
   </channel>
 </rss>

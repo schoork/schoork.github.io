@@ -42,6 +42,28 @@ Workflow The diagram below shows the general workflow of a parent concern in Sch
     </item>
     
     <item>
+      <title>Forms</title>
+      <link>https://help.schoork.com/docs/parents/forms/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://help.schoork.com/docs/parents/forms/</guid>
+      <description>Forms Note: This page describes forms that parents sign. To learn more about forms that users submit, go to the User Forms page.
+Tired of handling multiple paper forms that parents have to sign? We can turn those paper forms into digital ones so that you can have parents sign them digitally. This means less printing, less scanning, and a more seamless process.
+Paper forms generally mean that parents have to write out information that schools already have (like phone numbers and email addresses), wasting their time.</description>
+    </item>
+    
+    <item>
+      <title>Forms</title>
+      <link>https://help.schoork.com/docs/users/forms/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://help.schoork.com/docs/users/forms/</guid>
+      <description>Forms Note: This page describes forms submitted by users. To learn more about forms that parents sign, go to the Parent Forms page.
+Workflow The diagram below shows the general workflow of a form in Schoork. In this diagram the orange boxes represent actions that a person needs to take, while the blue boxes are tasks that Schoork automates.
+  mermaid.initialize({ flowchart: { useMaxWidth:true } });  graph TD a[User submits a form]:::work b[Email notification sent to approvers]:::automated c[Approvers approve form]:::work d[Email notification sent to user]:::automated e[Form can be printed]:::work a--b &amp; c c--d &amp; e classDef work fill:#f96 classDef automated fill:#6bf Supported Forms Schoork currently supports the following digital forms for users.</description>
+    </item>
+    
+    <item>
       <title>Hall Passes</title>
       <link>https://help.schoork.com/docs/students/hall_passes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -71,6 +93,17 @@ IEP Meetings The diagram below shows the general workflow of an IEP meeting in S
     </item>
     
     <item>
+      <title>Privacy Policy</title>
+      <link>https://help.schoork.com/docs/misc/privacy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://help.schoork.com/docs/misc/privacy/</guid>
+      <description>Privacy Policy Note: The audience of this privacy policy is the school, district, or ogranization that pays us for to use our software. Individuals cannot receive their individual data upon request.
+Privacy of your data is important to us at Schoork. That&amp;rsquo;s why we try to keep this policy as simple to read as possible. If you have any questions, feel free to reach out to us.
+Collecting Data Schoork is a data management system, so it needs data to be useful.</description>
+    </item>
+    
+    <item>
       <title>Referrals</title>
       <link>https://help.schoork.com/docs/students/referrals/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -78,6 +111,16 @@ IEP Meetings The diagram below shows the general workflow of an IEP meeting in S
       <guid>https://help.schoork.com/docs/students/referrals/</guid>
       <description>Referrals Workflow The diagram below shows the general workflow of a referral in Schoork. In this diagram the orange boxes represent actions that need to be taken and the blue boxes are tasks that Schoork automates.
   mermaid.initialize({ flowchart: { useMaxWidth:true } });  graph TD id1[User submits referral]:::work id2[&#34;Email notification to administrator(s)&#34;]:::automated id3[Administrator completes referral]:::work id4[Email notification to user]:::automated id5[Added to Hot List]:::automated id6[Consequence Served entry created]:::automated id1--id2 &amp; id3 id3--id4 &amp; id5 &amp; id6 classDef automated fill:#6bf classDef work fill:#f96 Initial Setup Referrals require a set of behaviors and and a set of consequences in order to be added and completed, respectively.</description>
+    </item>
+    
+    <item>
+      <title>Signatures</title>
+      <link>https://help.schoork.com/docs/misc/signatures/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://help.schoork.com/docs/misc/signatures/</guid>
+      <description>Signatures Schoork allows for the digital signing of forms for IEPs and financial forms. Users and parents can set their signature one time, and then use Schoork to digitally sign documents. Documents signed with a digital signature print the name of the user (or parent) and the timestamp when they signed the form.
+Signing Passwords Note: For the sake of brevity below, a user can mean either a user or a parent.</description>
     </item>
     
     <item>
@@ -92,10 +135,10 @@ Mobile Printers Currently Schoork supports printing on the Zebra iMZ220 (discont
     
     <item>
       <title>Zebra</title>
-      <link>https://help.schoork.com/docs/mobile_printers/zebra/</link>
+      <link>https://help.schoork.com/docs/misc/mobile_printers/zebra/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://help.schoork.com/docs/mobile_printers/zebra/</guid>
+      <guid>https://help.schoork.com/docs/misc/mobile_printers/zebra/</guid>
       <description>Zebra Mobile Printer Support Schoork supports printing on the Zebra iMZ220 and the ZQ310.
 Not Printing If your Zebra printer is not printing when you log a tardy,
  Make sure your printer is on Make sure your printer is linked to your phone via a bluetooth connection  Printing Gibberish If your Zebra mobile printer is printing an unintelligble mix of symbols and characters,

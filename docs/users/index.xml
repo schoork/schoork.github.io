@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Users on Schoork Documentation</title>
+    <link>https://help.schoork.com/docs/users/</link>
+    <description>Recent content in Users on Schoork Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>The Hugo Documents are copyright © [gethugothemes](https://gethugothemes.com/) 2020.</copyright>
+    
+	<atom:link href="https://help.schoork.com/docs/users/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Forms</title>
+      <link>https://help.schoork.com/docs/users/forms/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://help.schoork.com/docs/users/forms/</guid>
+      <description>Forms Note: This page describes forms submitted by users. To learn more about forms that parents sign, go to the Parent Forms page.
+Workflow The diagram below shows the general workflow of a form in Schoork. In this diagram the orange boxes represent actions that a person needs to take, while the blue boxes are tasks that Schoork automates.
+  mermaid.initialize({ flowchart: { useMaxWidth:true } });  graph TD a[User submits a form]:::work b[Email notification sent to approvers]:::automated c[Approvers approve form]:::work d[Email notification sent to user]:::automated e[Form can be printed]:::work a--b &amp; c c--d &amp; e classDef work fill:#f96 classDef automated fill:#6bf Supported Forms Schoork currently supports the following digital forms for users.</description>
+    </item>
+    
+  </channel>
+</rss>

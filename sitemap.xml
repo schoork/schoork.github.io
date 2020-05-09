@@ -3,12 +3,23 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://help.schoork.com/docs/</loc>
-    <priority>0</priority>
+    <loc>https://help.schoork.com/docs/students/</loc>
   </url>
   
   <url>
-    <loc>https://help.schoork.com/docs/students/</loc>
+    <loc>https://help.schoork.com/docs/users/</loc>
+  </url>
+  
+  <url>
+    <loc>https://help.schoork.com/docs/parents/</loc>
+  </url>
+  
+  <url>
+    <loc>https://help.schoork.com/docs/misc/</loc>
+  </url>
+  
+  <url>
+    <loc>https://help.schoork.com/docs/</loc>
     <priority>0</priority>
   </url>
   
@@ -29,6 +40,14 @@
   </url>
   
   <url>
+    <loc>https://help.schoork.com/docs/parents/forms/</loc>
+  </url>
+  
+  <url>
+    <loc>https://help.schoork.com/docs/users/forms/</loc>
+  </url>
+  
+  <url>
     <loc>https://help.schoork.com/docs/students/hall_passes/</loc>
   </url>
   
@@ -45,15 +64,19 @@
   </url>
   
   <url>
-    <loc>https://help.schoork.com/docs/mobile_printers/</loc>
+    <loc>https://help.schoork.com/docs/misc/mobile_printers/</loc>
   </url>
   
   <url>
-    <loc>https://help.schoork.com/docs/parents/</loc>
+    <loc>https://help.schoork.com/docs/misc/privacy/</loc>
   </url>
   
   <url>
     <loc>https://help.schoork.com/docs/students/referrals/</loc>
+  </url>
+  
+  <url>
+    <loc>https://help.schoork.com/docs/misc/signatures/</loc>
   </url>
   
   <url>
@@ -65,7 +88,7 @@
   </url>
   
   <url>
-    <loc>https://help.schoork.com/docs/mobile_printers/zebra/</loc>
+    <loc>https://help.schoork.com/docs/misc/mobile_printers/zebra/</loc>
   </url>
   
 </urlset>

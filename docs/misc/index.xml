@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Miscellaneous on Schoork Documentation</title>
+    <link>https://help.schoork.com/docs/misc/</link>
+    <description>Recent content in Miscellaneous on Schoork Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>The Hugo Documents are copyright © [gethugothemes](https://gethugothemes.com/) 2020.</copyright>
+    
+	<atom:link href="https://help.schoork.com/docs/misc/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Privacy Policy</title>
+      <link>https://help.schoork.com/docs/misc/privacy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://help.schoork.com/docs/misc/privacy/</guid>
+      <description>Privacy Policy Note: The audience of this privacy policy is the school, district, or ogranization that pays us for to use our software. Individuals cannot receive their individual data upon request.
+Privacy of your data is important to us at Schoork. That&amp;rsquo;s why we try to keep this policy as simple to read as possible. If you have any questions, feel free to reach out to us.
+Collecting Data Schoork is a data management system, so it needs data to be useful.</description>
+    </item>
+    
+    <item>
+      <title>Signatures</title>
+      <link>https://help.schoork.com/docs/misc/signatures/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://help.schoork.com/docs/misc/signatures/</guid>
+      <description>Signatures Schoork allows for the digital signing of forms for IEPs and financial forms. Users and parents can set their signature one time, and then use Schoork to digitally sign documents. Documents signed with a digital signature print the name of the user (or parent) and the timestamp when they signed the form.
+Signing Passwords Note: For the sake of brevity below, a user can mean either a user or a parent.</description>
+    </item>
+    
+  </channel>
+</rss>
