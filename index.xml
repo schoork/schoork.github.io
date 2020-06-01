@@ -7,9 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>The Hugo Documents are copyright © [gethugothemes](https://gethugothemes.com/) 2020.</copyright>
+    <lastBuildDate>Sun, 31 May 2020 10:34:18 -0400</lastBuildDate>
     
 	<atom:link href="https://help.schoork.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Signing Forms in the Age of COVID</title>
+      <link>https://help.schoork.com/post/signing-forms-in-the-age-of-covid/</link>
+      <pubDate>Sun, 31 May 2020 10:34:18 -0400</pubDate>
+      
+      <guid>https://help.schoork.com/post/signing-forms-in-the-age-of-covid/</guid>
+      <description>Paper Forms in a Contactless Age We recently spoke to a school principal who was distributing iPads and laptops to students to help them with distance learning. The form he had to use required the signature of the student, the parent, and a school employee, ensuring close contact with three different people. “In a time when we need to limit contact with others, three of us signing a form, potentially with the same pen, seems careless,” he said.</description>
+    </item>
     
     <item>
       <title>Appointments</title>
@@ -27,7 +37,7 @@ Workflow The diagram below shows the general workflow of a parent appointment in
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://help.schoork.com/docs/students/attendance/</guid>
-      <description>Attendance Workflow The diagram below shows the general workflow of attendance in Schoork. In this diagram the orange boxes represent actions that a person needs to take, while the blue boxes are tasks that Schoork automates.
+      <description>Workflow The diagram below shows the general workflow of attendance in Schoork. In this diagram the orange boxes represent actions that a person needs to take, while the blue boxes are tasks that Schoork automates.
   mermaid.initialize({ flowchart: { useMaxWidth:true } });  graph TD a[User takes attendance]:::work b[Absent students added to Daily Absences]:::automated c[Section removed from Daily Absences]:::automated d[Administrator makes edits as needed]:::work e[User forgets to take attendance]:::work f[Reminder email]:::automated g[User or administrator takes attendance for section]:::work h[Calculates daily attendance rate]:::automated classDef automated fill:#6bf classDef work fill:#f96 a--b &amp; c b--d e--f f--g d &amp; g -- h Initial Setup In order to take attendance, you will need to assign students to sections and create attendance codes.</description>
     </item>
     
@@ -69,7 +79,8 @@ Workflow The diagram below shows the general workflow of a form in Schoork. In t
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://help.schoork.com/docs/students/hall_passes/</guid>
-      <description>Hall Passes Hall passes are a mostly mobile feature. While hall passes might be easy to use with pre-printed tickets or scraps of paper and sticky notes, digital hall passes do afford the feature of automated data collection. With digital hall passes, you can which students are in the halls the most, how long students are out of class, and which teachers are allowing students to leave their classroom the most.</description>
+      <description>Hall passes are a mostly mobile feature. While hall passes might be easy to use with pre-printed tickets or scraps of paper and sticky notes, digital hall passes do afford the feature of automated data collection. With digital hall passes, you can which students are in the halls the most, how long students are out of class, and which teachers are allowing students to leave their classroom the most.
+Hall passes are designed to be printed on a mobile printer (but certainly do not have to be).</description>
     </item>
     
     <item>
@@ -78,7 +89,7 @@ Workflow The diagram below shows the general workflow of a form in Schoork. In t
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://help.schoork.com/docs/students/hot_list/</guid>
-      <description>Hot List The Hot List is designed to be a quick and easy way to notify users in a school when a student has a particular consequence or needs to be pulled. The hot list is dsiplayed on users&amp;rsquo; dashboards and can be sent as an email.
+      <description>The Hot List is designed to be a quick and easy way to notify users in a school when a student has a particular consequence or needs to be pulled. The hot list is dsiplayed on users&amp;rsquo; dashboards and can be sent as an email.
 Workflow The diagram below shows the general workflow of the hot list in Schoork. In this diagram the orange boxes represent actions that a person needs to take, while the blue boxes are tasks that Schoork automates.</description>
     </item>
     
@@ -88,7 +99,7 @@ Workflow The diagram below shows the general workflow of the hot list in Schoork
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://help.schoork.com/docs/students/ieps/</guid>
-      <description>IEPs Each student can be assigned an Individualized Education Plan (IEP) by a user with the Support permission. IEPs are a way to store and consolidate academic and behavioral goals, scanned documents, and forms relating to IEP meetings.
+      <description>Each student can be assigned an Individualized Education Plan (IEP) by a user with the Support permission. IEPs are a way to store and consolidate academic and behavioral goals, scanned documents, and forms relating to IEP meetings.
 IEP Meetings The diagram below shows the general workflow of an IEP meeting in Schoork. In this diagram the orange boxes represent actions that a person needs to take, while the blue boxes are tasks that Schoork automates.</description>
     </item>
     
@@ -109,7 +120,7 @@ Collecting Data Schoork is a data management system, so it needs data to be usef
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://help.schoork.com/docs/students/referrals/</guid>
-      <description>Referrals Workflow The diagram below shows the general workflow of a referral in Schoork. In this diagram the orange boxes represent actions that need to be taken and the blue boxes are tasks that Schoork automates.
+      <description>Workflow The diagram below shows the general workflow of a referral in Schoork. In this diagram the orange boxes represent actions that need to be taken and the blue boxes are tasks that Schoork automates.
   mermaid.initialize({ flowchart: { useMaxWidth:true } });  graph TD id1[User submits referral]:::work id2[&#34;Email notification to administrator(s)&#34;]:::automated id3[Administrator completes referral]:::work id4[Email notification to user]:::automated id5[Added to Hot List]:::automated id6[Consequence Served entry created]:::automated id1--id2 &amp; id3 id3--id4 &amp; id5 &amp; id6 classDef automated fill:#6bf classDef work fill:#f96 Initial Setup Referrals require a set of behaviors and and a set of consequences in order to be added and completed, respectively.</description>
     </item>
     
@@ -129,7 +140,7 @@ Signing Passwords Note: For the sake of brevity below, a user can mean either a 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://help.schoork.com/docs/students/tardy_slips/</guid>
-      <description>Tardy Slips Tardy slips are a mostly mobile feature. They are designed to be printed on a mobile printer when they are assigned.
+      <description>Tardy slips are a mostly mobile feature. They are designed to be printed on a mobile printer when they are assigned.
 Mobile Printers Currently Schoork supports printing on the Zebra iMZ220 (discontinued) and the ZQ310. If your school doesn&amp;rsquo;t have a mobile printer but would like to invest in some, we do recommend the ZQ310. It&amp;rsquo;s easy to use and already works with Schoork. If you have a mobile printer that&amp;rsquo;s not listed on our list of supported printers, please contact us.</description>
     </item>
     
